@@ -20,6 +20,7 @@ public class Nihongen implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
+	//test
 	public static final Logger LOGGER = LogManager.getLogger("nihongen");
 
 	public static final PowerFactory<Power> SHADOW_CLONE_JUTSU = new PowerFactory<>(new Identifier("nihongen", "shadow_clone_jutsu"), new SerializableData().add("key", ApoliDataTypes.KEY, new Active.Key()), data -> (type, entity) -> {
