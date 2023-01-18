@@ -4,9 +4,7 @@ package net.shinkume.origins;
 import io.github.apace100.apoli.data.ApoliDataTypes;
 import io.github.apace100.apoli.power.Active;
 import io.github.apace100.apoli.power.Power;
-import io.github.apace100.apoli.power.PowerTypeReference;
 import io.github.apace100.apoli.power.factory.PowerFactory;
-import io.github.apace100.apoli.power.factory.PowerFactorySupplier;
 import io.github.apace100.apoli.registry.ApoliRegistries;
 import io.github.apace100.calio.data.SerializableData;
 import net.fabricmc.api.ModInitializer;
@@ -17,9 +15,8 @@ import net.shinkume.origins.powers.ProjectilePower;
 import net.shinkume.origins.powers.ShadowCloneJutsuPower;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.lwjgl.system.CallbackI;
 
-public class ExampleMod implements ModInitializer {
+public class Nihongen implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.

@@ -1,6 +1,6 @@
 package net.shinkume.origins.mixin;
 
-import net.shinkume.origins.ExampleMod;
+import net.shinkume.origins.Nihongen;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		ExampleMod.LOGGER.info("This line is printed by an example mod mixin!");
+		Nihongen.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 
 

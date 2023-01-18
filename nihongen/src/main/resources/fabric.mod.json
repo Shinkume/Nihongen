@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.shinkume.origins.ExampleMod"
+      "net.shinkume.origins.Nihongen"
     ]
   },
   "mixins": [
