@@ -1,0 +1,20 @@
+{
+  "name": "Shinobi",
+  "description": "An ancient assasin of Japan, you eliminate your enemies through stealth.",
+  "icon": {
+    "item": "minecraft:iron_sword"
+  },"powers":
+  [
+  "nihongen:no_armor",
+    "nihongen:leap",
+    "nihongen:agility",
+    "origins:no_shield",
+    "nihongen:shadow_clone_jutsu",
+    "nihongen:katana_wielder",
+    "origins:fall_immunity",
+    "nihongen:vanish"
+
+  ],
+  "order": 1,
+  "impact": 1
+}

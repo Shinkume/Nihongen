@@ -1,0 +1,10 @@
+{
+  "name": "Fox Morph",
+  "description": "Allows you to turn into a fox!",
+  "type": "nihongen:fox_morph",
+  "key": {
+    "key": "key.origins.secondary_active"
+
+  }
+
+}

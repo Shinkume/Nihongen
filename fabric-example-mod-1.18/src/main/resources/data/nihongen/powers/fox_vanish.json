@@ -1,0 +1,9 @@
+{
+  "hidden": true,
+  "condition": {
+    "type": "origins:power_active",
+    "power": "nihongen:fox_vanish_trigger"
+  },
+  "type": "origins:invisibility",
+  "render_armor": false
+}

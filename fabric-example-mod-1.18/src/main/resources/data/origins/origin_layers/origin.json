@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "enabled": true,
+  "origins": [
+    "nihongen:shinobi",
+    "nihongen:samurai",
+    "nihongen:kitsune"
+
+  ]
+}

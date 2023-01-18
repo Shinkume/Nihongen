@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "nihongen",
+  "version": "${version}",
+
+  "name": "Nihon no gen",
+  "description": "Mod that adds japanese style origins to the origins mod!",
+  "authors": [
+    "Shinkume"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "former.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.shinkume.origins.ExampleMod"
+    ]
+  },
+  "mixins": [
+    "nihongen.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17",
+    "origins": ">=1.3.1",
+    "pehkui": ">=3.1.0"
+
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

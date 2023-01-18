@@ -1,0 +1,19 @@
+{
+  "name": "Katana Wielder",
+  "description": "Due to being a shinobi, you are able to do greater damage with an iron sword.",
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:iron_sword"
+      }
+    }
+  },
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "operation": "addition",
+    "value": 3
+  }
+}

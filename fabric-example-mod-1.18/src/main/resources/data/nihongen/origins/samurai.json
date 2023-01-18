@@ -1,0 +1,12 @@
+{
+  "name": "Samurai",
+  "description": "An ancient warrior of Japan, you eliminate your enemies through strength.",
+  "icon": {
+    "item": "minecraft:netherite_helmet"
+  },"powers":
+[
+
+
+],
+  "impact": 0
+}

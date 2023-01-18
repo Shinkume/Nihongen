@@ -1,0 +1,19 @@
+{
+  "name": "Kitsunebi-tama",
+  "description": "Allows you to shoot a ball of kitsunebi (fox fire) at your enemy. ",
+  "type": "origins:fire_projectile",
+  "entity_type": "minecraft:fireball",
+  "cooldown": 150,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 7
+  },
+  "count": 1,
+  "speed": 1.5,
+  "divergence": 1,
+  "sound": "minecraft:entity.fox.bite",
+  "key": {
+    "key": "key.origins.ternary_active"
+  }
+}

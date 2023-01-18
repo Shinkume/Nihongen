@@ -1,0 +1,10 @@
+{
+  "name": "Shadow Clone Jutsu",
+  "description": "Allows you to create duplicates of yourself to trick your opponent!",
+  "type": "nihongen:shadow_clone_jutsu",
+  "key": {
+  "key": "key.origins.secondary_active",
+    "continuous": "true"
+}
+
+}

@@ -1,0 +1,7 @@
+{
+  "type": "origins:particle",
+  "particle": "minecraft:soul_fire_flame",
+  "frequency": 12,
+  "name": "狐火(fox fire)",
+  "description": "Flames spawn around your body due to being a kitsune"
+}

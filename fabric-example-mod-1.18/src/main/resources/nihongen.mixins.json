@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.shinkume.origins.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "PlayerEntityRendererMixin",
+    "PlayerEntityMixin",
+    "PlayerWearBannerMixin",
+    "FoxPlayerMixin",
+    "ServerPlayerEntityMixin"
+
+  ],
+  "client": [
+    "ExampleMixin",
+    "CameraMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

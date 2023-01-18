@@ -1,0 +1,20 @@
+{
+  "name": "Kitsune",
+  "description": "An ancient fox youkai of Japan, you eliminate your enemies through trickery.",
+  "icon": {
+    "item": "minecraft:sweet_berries"
+  },"powers":
+[
+      "nihongen:leap",
+      "origins:no_shield",
+      "nihongen:agility",
+      "nihongen:light_armor",
+      "nihongen:kitsunebi",
+      "nihongen:fox_morph",
+      "nihongen:fox_vanish",
+      "origins:fall_immunity",
+    "nihongen:fox_vanish_trigger",
+  "nihongen:kitsunebi-tama"
+],
+  "impact": 1
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Kitsune",
+  "description": "An ancient mythological water youkai, you are strongest in the water.",
+  "icon": {
+    "item": "minecraft:lily_pad"
+  },"powers":
+[
+
+
+],
+  "impact": 0
+}
